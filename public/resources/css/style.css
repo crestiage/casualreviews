@@ -1,3 +1,25 @@
 .bg-casual-reviews{
-    background-color: #e1fafa;
+    background: #e1fafa;
+}
+
+.fb-share-button{
+    background: #1877f2;
+    color: white;
+}
+
+.fb-share-button:hover{
+    background: #3d8ffa;
+    color: white;
+}
+
+.margin-bot-10{
+    margin-bottom: 10px;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.review-row{
+    margin-bottom: 10px;
 }
