@@ -52,21 +52,36 @@
             </li>
             </ul>
         </div>
-        <span class="navbar-text">
-            <a href="#">Log in</a> / <a href="#">Sign up</a>
-        </span>
+        <!--added -->
+        
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <form class="form-inline my-2 my-md-0">
+                 <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </li>
+
+            <li class="nav-item">
+                <span class="navbar-text">
+                    <a href="#">Log in</a> / <a href="#">Sign up</a>
+                 </span>
+            </li>
+        </ul> 
+        
+        <!-- end -->
     </nav>
 
     <body>
         <div class="container-lg">    
             <div class="row" style="margin-top: 20px;">
-                <div class="col-3">
+                <div class="col-2">
                     <div class="row margin-bot-10">
                         <div class="col">
-                            <form class="form-inline my-2 my-lg-0">
+                            <!-- <form class="form-inline my-2 my-lg-0">
                                 <input class="form-control mr-sm-2" type="search" placeholder="Search Tags" aria-label="Search">
                                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
 
@@ -84,7 +99,7 @@
                     </div>
 
                 </div>
-                <div class="col-7">
+                <div class="col-8">
                     <!-- Content -->
                     @yield("content")
                 </div>
