@@ -6,15 +6,21 @@
     <div class="col">
         <div class="card">
             <div class="card-body">
-                <h3 class="card-title">COVID 19 Pandemic</h3>
+                <h1 class="card-title">COVID 19 Pandemic</h1>
                 <img src="resources/img/site/placeholder.jpg" class="img-fluid margin-bot-10" width="100%"/>
                 
-                <h6 class="card-subtitle mb-2 text-muted">
-                    Tags: <a href="#">Technology</a>, <a href="#">Gaming</a>
+                <div>
+                    <div style="float: left">
+                        <h6 class="card-subtitle mb-2 text-muted">
+                        Tags: <a href="#">Technology</a>, <a href="#">Gaming</a>
+                        </h6>
+                    </div>
+                    <div style="float: right">
+                    <h6 class="card-subtitle mb-2 text-muted">
                     By: <a href='#' style="text-align:right">Author</a>  Date: May 16, 2020
-                </h6>
-                   
-
+                    </h6>
+                    </div>
+                </div>
 
                 <p class="card-text" style="margin-top: 10px;">
                 <!--- put rich text here -->
