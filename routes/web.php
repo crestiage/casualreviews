@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/article', function () {
     return view('article');
 });
+
+Route::get('/editor', 'EditorController@index');

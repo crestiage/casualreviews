@@ -1,4 +1,4 @@
-@extends('layouts.template')
+@extends('layouts.template-with-sidebar')
 
 @section("content")
 <div class="row review-row">
