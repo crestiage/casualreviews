@@ -5,6 +5,7 @@
 <h3>Create Review</h3>
 <hr />
 <link href="resources/css/quill.snow.css" rel="stylesheet">
+<link href="resources/css/tagify.css" rel="stylesheet">
 <form class="product_update_form" id="product_update_form" enctype='multipart/form-data' action='/saveProduct' method="post">
     {{ csrf_field() }}
     <div class="row">
@@ -31,4 +32,9 @@
     </div>
 
 </form>
+
+<script src="resources/js/jQuery.tagify.min.js"></script>
+<script>
+    $("#review_tags").tagify();
+</script>
 @endsection
