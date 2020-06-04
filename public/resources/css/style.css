@@ -23,3 +23,13 @@
 .review-row{
     margin-bottom: 10px;
 }
+
+/* Style for the stars rating */
+.review-stars-rating-base-layer
+{
+    color: orange;
+}
+.review-stars-rating-hover-layer
+{
+    color: orange;
+}
